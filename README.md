@@ -1,0 +1,1 @@
+# Living Flame status checker
