@@ -1,0 +1,37 @@
+{
+  "name": "living-flame-status-checker",
+  "version": "0.0.1",
+  "description": "Check periodically the state of the Living Flame-EU WoW server",
+  "main": "src/main.js",
+  "author": "Lucas Mas",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "watch": "nodemon -e * --watch src/* --exec \"electron .\""
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "auto-launch": "^5.0.6",
+    "axios": "^1.6.2",
+    "electron-squirrel-startup": "^1.0.0",
+    "node-notifier": "^10.0.1"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.2.0",
+    "@electron-forge/maker-deb": "^7.2.0",
+    "@electron-forge/maker-rpm": "^7.2.0",
+    "@electron-forge/maker-squirrel": "^7.2.0",
+    "@electron-forge/maker-zip": "^7.2.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.2.0",
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.35",
+    "@types/electron": "^1.6.10",
+    "@types/node-notifier": "^8.0.5",
+    "@types/play-sound": "^1.1.2",
+    "electron": "^28.1.0",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2"
+  }
+}
